@@ -20,7 +20,7 @@
   <body>
     <!-- Header -->
     <header class="header-border">
-      <div class="container header main-nav">
+      <div class="container main-nav">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link">
             Web<span class="header-logo-studio">Studio</span>
@@ -57,13 +57,15 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">Order Service</button>
+        </div>
       </section>
 
-      <div class="container">
-        <!--About us  -->
-        <section class="about section">
+      <!--About us  -->
+      <section class="about section">
+        <div class="container">
           <h2 class="visually-hidden">About us</h2>
           <ul class="about-list list">
             <li class="about-item">
@@ -95,14 +97,15 @@
               </p>
             </li>
           </ul>
-        </section>
-        <!-- What are we doing -->
-        <section class="doing">
+        </div>
+      </section>
+      <!-- What are we doing -->
+      <section class="doing">
+        <div class="container">
           <h2 class="doing-title">What are we doing</h2>
           <ul class="doing-list list">
             <li class="doing-item">
               <img
-                class="no-gap"
                 src="./images/img-pc.jpg"
                 alt="Personal computer"
                 width="360"
@@ -110,23 +113,17 @@
             </li>
             <li class="doing-item">
               <img
-                class="no-gap"
                 src="./images/img-phones.jpg"
                 alt="Smartphones"
                 width="360"
               />
             </li>
             <li class="doing-item">
-              <img
-                class="no-gap"
-                src="./images/img-phone.jpg"
-                alt="Smartphone"
-                width="360"
-              />
+              <img src="./images/img-phone.jpg" alt="Smartphone" width="360" />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
       <!--Our Team  -->
       <section class="team section">
         <div class="container">
@@ -137,42 +134,40 @@
                 src="./images/img-team-1.jpg"
                 alt="Mark Guerrero"
                 width="264"
-                height="260"
               />
-              <h3 class="team-subtitle">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                class="no-gap"
-                src="./images/img-team-2.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <h3 class="team-subtitle">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <img src="./images/img-team-2.jpg" alt="Tom Ford" width="264" />
+              <div class="team-card">
+                <h3 class="team-subtitle">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
                 src="./images/img-team-3.jpg"
                 alt="Camila Garcia"
                 width="264"
-                height="260"
               />
-              <h3 class="team-subtitle">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
-                class="no-gap"
                 src="./images/img-team-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
-                height="260"
               />
-              <h3 class="team-subtitle">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>

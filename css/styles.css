@@ -35,7 +35,7 @@ body{
     margin: -1px;
  }
 
- .no-gap {
+  img {
   display: block;
   width: 100%;
   height: auto;
@@ -68,11 +68,6 @@ padding-bottom: 120px;
 .header-border{
   border-bottom: 1px solid var(--secondary-color-text);
 }
-
-.header {  
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .main-nav{
   display: flex;
   align-items: center;
@@ -82,6 +77,8 @@ padding-bottom: 120px;
   align-items: center;
 }
 .header-logo {
+padding-top: 24px;
+padding-bottom: 24px;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -107,6 +104,7 @@ color: var(--secondary-color-title);
 .header-item {
 }
 .header-link {
+display: block;
 padding-top: 24px;
 padding-bottom: 24px;
 
@@ -135,6 +133,9 @@ color: var(--active-color);
     margin-right: 40px;
     }
 .adress-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -197,6 +198,7 @@ border: 0 solid transparent;
   margin-right: 24px;
   }
 .about-item {
+  width: 264px;
 }
 .about-title {
   margin-top: 0;
@@ -238,6 +240,7 @@ color: var(--secondary-color-title);
     margin-right: 24px;
     }
 .doing-item {
+  width: 360px;
 }
 .team {
 background-color: var(--secondary-bgc);
@@ -262,11 +265,19 @@ color: var(--secondary-color-title);
     margin-right: 24px;
     }
 .team-item {
+  width: 264px;
+  padding-bottom: 32px;
 background-color: var(--main-color-title);
+border-radius: 0px 0px 4px 4px;
+}
+.team-card{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .team-subtitle {
-  margin-top: 32px;
-  margin-bottom: 8px;
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -276,7 +287,6 @@ color: var(--secondary-color-title);
 }
 .team-text {
   margin-top: 0;
-  margin-bottom: 32px;
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -337,6 +347,7 @@ background-color: var(--secondary-bgc);
 .filters-btn.current{
     background-color: var(--active-color);
     color: var(--main-color-title);
+    border-color: transparent;
 }
 .examples-list{
   display: flex;
@@ -348,6 +359,7 @@ background-color: var(--secondary-bgc);
   /* outline: 1px solid tomato;   */
 }
 .examples-item{
+  width: 360px;
 }
 .examples-item:nth-child(3n){
 margin-right: 0;
@@ -373,6 +385,7 @@ color: inherit;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  padding-right: 16px;
   border-left: 1px solid var(--secondary-color-text);
   border-right: 1px solid var(--secondary-color-text);
   border-bottom: 1px solid var(--secondary-color-text);
